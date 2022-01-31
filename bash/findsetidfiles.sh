@@ -24,6 +24,6 @@ echo ""
 # commands to display a title
 # commands to make a list of the 12 biggest files
 # sort/formo “12 Biggest Files!”
-o “12 Biggest Files!”
+echo “12 Biggest Files!”
 find / - type f -ls 2> /dev/null | sort -k |ls -lash | head -n 12
 
